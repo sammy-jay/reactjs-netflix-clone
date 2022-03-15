@@ -1,11 +1,12 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+
+import HomeScreen from './components/HomeScreen';
+import './App.css';
 
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className="app">
+      <HomeScreen />
     </div>
   );
 }
